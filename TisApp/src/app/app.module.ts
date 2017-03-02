@@ -5,9 +5,12 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 
+import { LoginPage } from '../pages/auth/login';
+
 @NgModule({
   declarations: [
     MyApp,
+    LoginPage,
     HelloIonicPage,
     ItemDetailsPage,
     ListPage
@@ -18,6 +21,7 @@ import { ListPage } from '../pages/list/list';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
+    LoginPage,
     HelloIonicPage,
     ItemDetailsPage,
     ListPage
